@@ -95,7 +95,7 @@ Dynonary cũng là một `Pet Project` giúp tôi ôn luyện kỹ năng lập t
 1. Clone project này
 
 ```
-  git clone https://github.com/TuanNguyen2504/dynonary-english
+  git clone https://github.com/HoangShuan/App.git
 ```
 
 2. Cài đặt thư viện ở Backend, Frontend
