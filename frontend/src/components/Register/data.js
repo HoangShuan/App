@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 import { setMessage } from 'redux/slices/message.slice';
-import Register from './index';
+import Register from '@/components/Register/index';
 
 function RegisterData() {
   const dispatch = useDispatch();

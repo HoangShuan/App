@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import SentenceContributionData from './Sentence/data';
+import SentenceContributionData from '@/components/Contribution/Sentence/data';
 import useStyle from './style';
-import WordContributionData from './Word/data';
+import WordContributionData from '@/components/Contribution/Word/data';
 
 function Contribution() {
   const classes = useStyle();

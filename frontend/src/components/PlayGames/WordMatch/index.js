@@ -10,8 +10,8 @@ import { onPlayAudio, playSoundAnswer } from 'helper/speaker.helper';
 import PropTypes from 'prop-types';
 import React, { useRef, useState } from 'react';
 import { useSelector } from 'react-redux';
-import CorrectWordResult from '../Result';
-import SplitWord from './SplitWord';
+import CorrectWordResult from '@/components/PlayGames/Result';
+import SplitWord from '@/components/PlayGames/WordMatch/SplitWord';
 import useStyle from './style';
 
 function WordMatchGame({ list }) {

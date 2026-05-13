@@ -12,8 +12,8 @@ import PropTypes from 'prop-types';
 import React, { useRef, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
-import InformationTooltip from '../Word/InformationTooltip';
-import useStyle from '../Word/style';
+import InformationTooltip from '@/components/Contribution/Word/InformationTooltip';
+import useStyle from '@/components/Contribution/Word/style';
 
 const schema = yup.object().shape({
   sentence: yup

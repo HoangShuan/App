@@ -1,6 +1,6 @@
 import { DIPHTHONGS } from 'constant/ipa';
 import React from 'react';
-import IPAGroupCollapse from './GroupCollapse';
+import IPAGroupCollapse from '@/components/IPA/GroupCollapse';
 
 function Diphthongs() {
   return (

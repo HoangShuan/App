@@ -5,9 +5,9 @@ import DialogContent from '@material-ui/core/DialogContent';
 import CloseIcon from '@material-ui/icons/Close';
 import PropTypes from 'prop-types';
 import React from 'react';
-import ThemeSetting from '../Theme';
-import ToggleNavButton from '../ToggleNavButton';
-import VoiceSetting from '../Voice';
+import ThemeSetting from '@/components/SpeedDial/Settings/Theme';
+import ToggleNavButton from '@/components/SpeedDial/Settings/ToggleNavButton';
+import VoiceSetting from '@/components/SpeedDial/Settings/Voice';
 import useStyle from './style';
 
 function SettingModal({ open, onClose }) {

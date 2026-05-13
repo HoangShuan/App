@@ -17,8 +17,8 @@ import { useForm } from 'react-hook-form';
 import { useDispatch } from 'react-redux';
 import { setMessage } from 'redux/slices/message.slice';
 import * as yup from 'yup';
-import InformationTooltip from './InformationTooltip';
-import PhoneticInput from './PhoneticInput';
+import InformationTooltip from '@/components/Contribution/Word/InformationTooltip';
+import PhoneticInput from '@/components/Contribution/Word/PhoneticInput';
 import useStyle from './style';
 
 let delayTimer = null;

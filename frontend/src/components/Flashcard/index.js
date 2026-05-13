@@ -9,8 +9,8 @@ import TooltipCustom from 'components/UI/TooltipCustom';
 import WordPack from 'components/UI/WordPack';
 import PropTypes from 'prop-types';
 import React, { useRef, useState } from 'react';
-import GalleryList from './GalleryList';
-import SlideShow from './SlideShow';
+import GalleryList from '@/components/Flashcard/GalleryList';
+import SlideShow from '@/components/Flashcard/SlideShow';
 import useStyle from './style';
 
 const perPage = 7;

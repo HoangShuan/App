@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
-import messageReducer from './slices/message.slice';
-import userInfoReducer from './slices/userInfo.slice';
-import voiceReducer from './slices/voice.slice';
+import messageReducer from '@/redux/slices/message.slice';
+import userInfoReducer from '@/redux/slices/userInfo.slice';
+import voiceReducer from '@/redux/slices/voice.slice';
 
 const store = configureStore({
   reducer: {

@@ -7,8 +7,8 @@ import React, { useRef, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 import { setMessage } from 'redux/slices/message.slice';
-import CorrectWord from '.';
-import WordPack from '../../UI/WordPack';
+import CorrectWord from '@/components/PlayGames/CorrectWord/index';
+import WordPack from '@/components/UI/WordPack';
 
 const MAX_LEN_WORD_PACK = 500;
 

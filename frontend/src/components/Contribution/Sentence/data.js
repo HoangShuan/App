@@ -2,7 +2,7 @@ import sentenceApi from 'apis/sentenceApi';
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { setMessage } from 'redux/slices/message.slice';
-import SentenceContribution from './index';
+import SentenceContribution from '@/components/Contribution/Sentence/index';
 
 function SentenceContributionData() {
   const [submitting, setSubmitting] = useState(false);

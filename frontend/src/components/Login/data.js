@@ -3,7 +3,7 @@ import { UX } from 'constant';
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { setMessage } from 'redux/slices/message.slice';
-import Login from './index';
+import Login from '@/components/Login/index';
 
 function LoginData() {
   const [loading, setLoading] = useState(false);

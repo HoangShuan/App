@@ -1,6 +1,6 @@
 import React from 'react';
-import LoginFacebook from './Facebook';
-import LoginGoogle from './Google';
+import LoginFacebook from '@/components/Login/SocialNetwork/Facebook';
+import LoginGoogle from '@/components/Login/SocialNetwork/Google';
 
 function SocialNetworkLogin() {
   return (

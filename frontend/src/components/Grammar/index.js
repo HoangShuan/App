@@ -1,7 +1,7 @@
 import AutoSearchInput from 'components/UI/AutoSearchInput';
 import PropTypes from 'prop-types';
 import React, { useEffect, useRef, useState } from 'react';
-import GrammarListBoxData from './ListBox/data';
+import GrammarListBoxData from '@/components/Grammar/ListBox/data';
 import useStyle from './style';
 
 function Grammar({ list, loading }) {

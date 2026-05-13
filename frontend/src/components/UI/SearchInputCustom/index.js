@@ -9,7 +9,7 @@ import { debounce } from 'helper';
 import PropTypes from 'prop-types';
 import React, { useRef, useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import WordDetailModal from '../WordDetailModal';
+import WordDetailModal from '@/components/UI/WordDetailModal';
 import useStyle from './style';
 let timer = null;
 

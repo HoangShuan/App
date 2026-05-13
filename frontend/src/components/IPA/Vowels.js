@@ -1,6 +1,6 @@
 import { VOWELS } from 'constant/ipa';
 import React from 'react';
-import IPAGroupCollapse from './GroupCollapse';
+import IPAGroupCollapse from '@/components/IPA/GroupCollapse';
 
 function Vowels() {
   return (

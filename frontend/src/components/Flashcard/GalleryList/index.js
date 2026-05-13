@@ -2,7 +2,7 @@ import Tooltip from '@material-ui/core/Tooltip';
 import Skeleton from '@material-ui/lab/Skeleton';
 import PropTypes from 'prop-types';
 import React from 'react';
-import GalleryItem from '../GalleryItem';
+import GalleryItem from '@/components/Flashcard/GalleryItem';
 import useStyle from './style';
 
 function GalleryList({ list, onPrev, onNext, total, current, showMean }) {

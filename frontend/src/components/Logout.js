@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 import { setMessage } from 'redux/slices/message.slice';
-import GlobalLoading from './UI/GlobalLoading';
+import GlobalLoading from '@/components/UI/GlobalLoading';
 
 function Logout() {
   const history = useHistory();

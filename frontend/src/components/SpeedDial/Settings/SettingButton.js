@@ -1,6 +1,6 @@
 import SettingsIcon from '@material-ui/icons/Settings';
 import React, { useState } from 'react';
-import SettingModal from './Modal';
+import SettingModal from '@/components/SpeedDial/Settings/Modal';
 
 function SettingButton() {
   const [openModal, setOpenModal] = useState(false);

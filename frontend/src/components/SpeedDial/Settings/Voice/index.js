@@ -1,8 +1,8 @@
 import React from 'react';
-import AccentSelect from './Accent';
-import VoiceSpeed from './Speed';
+import AccentSelect from '@/components/SpeedDial/Settings/Voice/Accent';
+import VoiceSpeed from '@/components/SpeedDial/Settings/Voice/Speed';
 import useStyle from './style';
-import VoiceVolume from './Volume';
+import VoiceVolume from '@/components/SpeedDial/Settings/Voice/Volume';
 
 function VoiceSetting() {
   const classes = useStyle();

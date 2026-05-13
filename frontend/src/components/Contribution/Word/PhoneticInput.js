@@ -3,7 +3,7 @@ import InputCustom from 'components/UI/InputCustom';
 import PhoneticKeyboard from 'components/UI/PhoneticKeyboard';
 import PropTypes from 'prop-types';
 import React, { useEffect, useRef, useState } from 'react';
-import InformationTooltip from './InformationTooltip';
+import InformationTooltip from '@/components/Contribution/Word/InformationTooltip';
 
 function PhoneticInput(props) {
   const { errorMessage, error, register, resetFlag, ...restProps } = props;

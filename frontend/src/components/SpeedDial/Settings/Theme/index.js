@@ -5,7 +5,7 @@ import PaletteIcon from '@material-ui/icons/Palette';
 import { THEME_KEYS } from 'constant';
 import { getCustomPalettes, setRootPalettes } from 'helper';
 import React, { useState } from 'react';
-import PaletteColor from './PaletteColor';
+import PaletteColor from '@/components/SpeedDial/Settings/Theme/PaletteColor';
 import useStyle from './style';
 
 function ThemeSetting() {

@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import SettingsIcon from '@material-ui/icons/Settings';
-import SentenceTopicModal from './SentenceTopicModal';
+import SentenceTopicModal from '@/components/CommunicationPhrase/SentenceTopicModal';
 
 function SentenceTopicSettingModal({ onSelectTopic }) {
   const [showTopicModal, setShowTopicModal] = useState(false);

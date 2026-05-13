@@ -9,7 +9,7 @@ import { WORD_LEVELS, WORD_SPECIALTY, WORD_TYPES } from 'constant';
 import { TOPIC_OPTIONS } from 'constant/topics';
 import PropTypes from 'prop-types';
 import React, { useRef } from 'react';
-import TopicSelect from '../TopicSelect';
+import TopicSelect from '@/components/UI/TopicSelect';
 import useStyle from './style';
 
 const formId = 'wordPackForm';

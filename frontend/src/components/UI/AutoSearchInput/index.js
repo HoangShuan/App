@@ -1,6 +1,6 @@
 import CloseIcon from '@material-ui/icons/HighlightOffOutlined';
-import { MAX } from 'constant';
-import { debounce } from 'helper';
+import { MAX } from '@/constant';
+import { debounce } from '@/helper';
 import PropTypes from 'prop-types';
 import React, { useRef, useState } from 'react';
 import useStyle from './style';

@@ -12,7 +12,7 @@ import { cloudinaryImgOptimize } from 'helper';
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import SettingMenu from './SettingMenu';
+import SettingMenu from '@/components/Navigation/SettingMenu';
 import useStyle from './style';
 
 function Navigation() {

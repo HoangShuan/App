@@ -4,9 +4,9 @@ import InfiniteScroll from 'components/UI/InfiniteScroll';
 import WordSortModal from 'components/UI/WordSortModal';
 import PropTypes from 'prop-types';
 import React from 'react';
-import DynoDictionaryItemData from './Item/data';
-import DDSettingWordPack from './SettingWordPack';
-import DynoDictionarySkeleton from './Skeleton';
+import DynoDictionaryItemData from '@/components/DynoDictionary/Item/data';
+import DDSettingWordPack from '@/components/DynoDictionary/SettingWordPack';
+import DynoDictionarySkeleton from '@/components/DynoDictionary/Skeleton';
 import useStyle from './style';
 
 function DynoDictionary({

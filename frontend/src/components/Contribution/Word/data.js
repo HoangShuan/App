@@ -2,7 +2,7 @@ import wordApi from 'apis/wordApi';
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { setMessage } from 'redux/slices/message.slice';
-import WordContribution from './index';
+import WordContribution from '@/components/Contribution/Word/index';
 
 const analysisExample = (exampleStr = '', word = '') => {
   if (typeof exampleStr !== 'string' || exampleStr === '') {

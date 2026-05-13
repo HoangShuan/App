@@ -8,7 +8,7 @@ import { LINKS } from 'constant';
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import { Link } from 'react-scroll';
-import SettingButton from './Settings/SettingButton';
+import SettingButton from '@/components/SpeedDial/Settings/SettingButton';
 import useStyle from './style';
 
 function ScrollTop() {

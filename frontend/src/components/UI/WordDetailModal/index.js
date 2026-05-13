@@ -6,7 +6,7 @@ import { TOPICS } from 'constant/topics';
 import { cloudinaryImgOptimize } from 'helper';
 import PropTypes from 'prop-types';
 import React from 'react';
-import Tag from '../Tag';
+import Tag from '@/components/UI/Tag';
 import useStyle from './style';
 
 function sliceTopics(topics) {

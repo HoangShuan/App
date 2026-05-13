@@ -2,7 +2,7 @@ import Tooltip from '@material-ui/core/Tooltip';
 import Skeleton from '@material-ui/lab/Skeleton';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
-import SlideItem from '../SlideItem';
+import SlideItem from '@/components/Flashcard/SlideItem';
 import useStyle from './style';
 const perPage = 7;
 

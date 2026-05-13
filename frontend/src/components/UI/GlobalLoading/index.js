@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import CircularProgress from '@material-ui/core/CircularProgress';
-import useToggleOverlay from 'hooks/useToggleOverlay';
+import useToggleOverlay from '@/hooks/useToggleOverlay';
 import React from 'react';
-import useStyle from './style';
+import useStyle from '@/components/UI/GlobalLoading/style';
 
 function GlobalLoading({ title }) {
   const classes = useStyle();

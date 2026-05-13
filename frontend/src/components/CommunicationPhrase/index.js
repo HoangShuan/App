@@ -3,8 +3,8 @@ import DynoDictionarySkeleton from 'components/DynoDictionary/Skeleton';
 import InfiniteScroll from 'components/UI/InfiniteScroll';
 import PropTypes from 'prop-types';
 import React from 'react';
-import CommunicationPhraseItem from './Item';
-import SentenceTopicSettingModal from './SettingModal';
+import CommunicationPhraseItem from '@/components/CommunicationPhrase/Item';
+import SentenceTopicSettingModal from '@/components/CommunicationPhrase/SettingModal';
 import useStyle from './style';
 
 function CommunicationPhrase({
